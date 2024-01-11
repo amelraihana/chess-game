@@ -23,7 +23,7 @@ body{
 
 .div{
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 ul{
@@ -101,6 +101,11 @@ h1{
 
     #tog, #reset-btn {
         font-size: 1rem;
+    }
+
+    .div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
