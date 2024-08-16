@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     place-items: center;
     justify-content: center;
     overflow-x: hidden;
     background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
 }
